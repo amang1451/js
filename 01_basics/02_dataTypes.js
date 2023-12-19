@@ -1,6 +1,6 @@
 "use strict"; //treat all js code in this file as newer verion
 
-// alert(3+3); we are using node js not browser
+// alert(3+3); we are using nodejs, not browser
 
 console.log(3 + 3);
 console.log("Aman");
@@ -11,21 +11,25 @@ let isLoggedIn = false
 
 
 
+//////////// primitive datatype /////////////////
+
 // number => 2 to power 53
 // bigint
 // string => "",''
 // boolean => true/false
 // null => standalone value
 // undefined => not defined
-// symbol =>  uniqueness
+// symbol =>  uniqueness use for react
 
 
 
 //object
-console.log(typeof "hitesh");
-console.log(typeof age);
+
+console.log(typeof "hitesh"); // string
+console.log(typeof age); // number
 console.log(typeof null); // oject
 console.log(typeof undefined); //undefined
+console.log(typeof isLoggedIn); // boolean
 
 
 
